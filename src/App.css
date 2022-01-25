@@ -1,0 +1,67 @@
+.app {
+  display: flex;
+}
+
+canvas {
+  position: absolute;
+}
+
+.navbar {
+  height: 50px;
+  background-color: #4064ac;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  padding: 0px 100px;
+  font-size: 20px;
+}
+
+.newPostCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.addPost {
+  display: flex;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addImg {
+  width: 70px;
+  cursor: pointer;
+}
+
+.container {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  background-color: lightblue;
+}
+
+@media only screen and (max-width: 700px) {
+  .newPostCard {
+    height: 93vh;
+  }
+  .addImg {
+    width: 50px;
+  }
+}
